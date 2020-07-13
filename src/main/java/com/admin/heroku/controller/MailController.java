@@ -24,7 +24,7 @@ public class MailController {
 		Mail mail = new Mail();
 		mail.setMailFrom("overcds.community@gmail.com");
 		mail.setMailTo(contributor);
-		mail.setMailSubject("Thank you from Posmino community!");
+		mail.setMailSubject("Thank you from OverCDs community!");
 		mail.setMailContent("\n\n\nThank you for your contribution to our community. Your gift has been sent!");
 		mailService.sendMail(mail);
 		//return "Mail Sent!";
@@ -38,7 +38,7 @@ public class MailController {
 		Mail mail = new Mail();
 		mail.setMailFrom("overcds.community@gmail.com");
 		mail.setMailTo(donee);
-		mail.setMailSubject("Congratulation from Posmino community!");
+		mail.setMailSubject("Congratulation from OverCDs community!");
 		mail.setMailContent("\n\n\nYou have received a free item!");
 		mailService.sendMail(mail);
 		//return "Mail Sent!";
